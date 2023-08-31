@@ -8,12 +8,89 @@
   </head>
   <body>
     <main class="contenedor">
+      <!------------------------------------------ HEADER----------------------------->
       <div class="header">
-        <img src="Adriana.jpg" alt="MI foto" />
-        <h1>ADRIANA VILLARREAL</h1>
-        <h2>WEB PROGRAMMER</h2>
+        <img
+          class="im"
+          src="adriana.jpg"
+          alt="MI foto"
+          width="150"
+          height="180"
+        />
+        <article id="web">
+          <h1 class="name">ADRIANA VILLARREAL</h1>
+          <br />
+          <h2 class="pro">WEB PROGRAMMER</h2>
+        </article>
       </div>
-      <section></section>
+
+      <!------------------------------------------LEFT--------------------------------->
+      <section class="left">
+        <article class="aboutme">
+          <h2 class="about">ABOUT ME</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eius
+            tenetur unde illo perspiciatis, reiciendis quia repellat, cum
+            voluptatem ad voluptate voluptatum ratione. Magni, quidem est atque
+            maxime alias reiciendis.
+          </p>
+        </article>
+        <div class="educa">
+          <h2 class="education">EDUCATION</h2>
+          <p><b>Ada School</b> <br />Desarrollo Web</p>
+          <p><b>Bachiller en Ciencias</b></p>
+        </div>
+
+        <article class="skills">
+          <h3 class="ski">SKILLS</h3>
+          <label for="file">HTML <br /></label>
+          <progress id="file" value="90" max="100">90%</progress> <br />
+
+          <label for="file">CSS <br /></label>
+          <progress id="file" value="70" max="100">70%</progress> <br />
+
+          <label for="file">JAVA SCRIPT<br /></label>
+          <progress id="file" value="20" max="100">20%</progress>
+        </article>
+        <div class="contacto">
+          <h3 class="contact">CONTACT</h3>
+          <p><img src="phone.png" alt="telefono" /> +58 4245760262</p>
+          <p><img src="email.png" alt="email" /> Adrianavvb29@gmail.com</p>
+          <p><img src="ubicacion.png" alt="ubicacion" /> Venezuela-Zulia</p>
+        </div>
+      </section>
+
+      <!------------------------------------------------ RIGHT----------------------------------->
+      <section class="right">
+        <div class="exp">
+          <h3 class="experiences">EXPERIENCE</h3>
+          <ul>
+            <li>
+              <strong>Desarrollo web</strong> <br />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
+              quidem obcaecati repellat recusandae fuga ipsum hic suscipit.
+            </li>
+            <li>
+              <strong>Comercial del zulia</strong> <br />
+              Cajera
+            </li>
+          </ul>
+        </div>
+        <div id="intereses">
+          <h3 class="inter">INTERESES</h3>
+          <p><strong>Ingles fluido</strong></p>
+          <p><strong>Desarrollo web</strong></p>
+          <p><strong>Diseño de interiores</strong></p>
+        </div>
+        <article id="language">
+          <h3 class="idiomas">IDIOMAS</h3>
+          <label for="file">Español <br /></label>
+          <progress id="file" value="100" max="100">100%</progress> <br />
+
+          <label for="file">Ingles<br /></label>
+          <progress id="file" value="40" max="100">40%</progress>
+        </article>
+      </section>
     </main>
   </body>
 </html>
