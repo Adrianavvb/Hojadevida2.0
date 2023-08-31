@@ -6,17 +6,19 @@
 
 .contenedor {
   border: 3px solid;
-  height: 140vh;
+  min-height: 130vh;
   width: 750px;
   margin-left: 18%;
   background-color: rgb(7, 6, 6);
+  background-image: linear-gradient(to right, red, black 9%);
+  letter-spacing: 1px;
 }
 
 /* HEADER */
 
 .header {
   align-items: center;
-  border: 3px solid;
+  border: 3px solid white;
   width: 600px;
   display: grid;
   padding: 1em;
@@ -25,10 +27,16 @@
   color: whitesmoke;
 }
 #web {
-  margin-left: 30%;
-  margin-top: -45%;
-  font-size: 20px;
+  margin-left: 36%;
+  margin-top: -35%;
   text-align: justify;
+  color: white;
+}
+.name {
+  font-size: 50px;
+}
+.pro {
+  font-size: 25px;
 }
 
 /* LEFT */
@@ -39,11 +47,44 @@
   border-top: 3px solid;
   border-bottom: 3px solid;
   width: 300px;
- display: grid; 
+  display: grid;
   margin-left: 10%;
   margin-top: 5%;
-  height: 65%;
+  height: 60%;
   color: whitesmoke;
+
+}
+.about {
+  font-size: 29px;
+  padding-bottom: 5%;
+}
+
+.aboutme {
+  margin: 15px;
+  text-indent: 15px;
+  font-size: 17px;
+}
+
+.ski {
+  margin-top: -3%;
+  padding-bottom: 5%;
+  font-size: 29px;
+}
+.skills {
+  margin: 15px;
+  font-size: 17px;
+}
+.contact {
+  font-size: 29px;
+  margin-top: -3%;
+  padding-bottom: 5%;
+}
+.contacto {
+  margin: 15px;
+  font-size: 17px;
+}
+img {
+  background-color: whitesmoke;
 }
 
 /* RIGHT */
@@ -54,12 +95,46 @@
   width: 300px;
   display: grid;
   margin-top: 5%;
-  height:65% ;
+  height:60%;
   text-align: justify;
   padding-left: 3em;
   color: whitesmoke;
 }
-img{
-    background-color: whitesmoke;
+.experiences {
+  font-size: 29px;
+  padding-bottom: 5%;
+  margin-top: 5%;
 }
+
+.exp{
+   font-size: 17px;
+}
+
+.education {
+ 
+  padding-bottom: 5%;
+  font-size: 29px;
+}
+.educa {
+  font-size: 17px;
+}
+.inter {
+  font-size: 29px;
+  padding-bottom: 5%;
+}
+#intereses {
+ 
+  font-size: 17px;
+}
+.idiomas{
+  font-size: 29px;
+  padding-bottom: 5%;
+
+}
+#language{
+  font-size: 17px;
+
+}
+
+
 
