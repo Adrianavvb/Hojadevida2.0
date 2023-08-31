@@ -6,12 +6,12 @@
 
 .contenedor {
   border: 3px solid;
-  min-height: 130vh;
+  min-height: 1000px;
   width: 750px;
   margin-left: 18%;
-  background-color: rgb(7, 6, 6);
-  background-image: linear-gradient(to right, red, black 9%);
+  background-image: linear-gradient(to right, red, black 10%);
   letter-spacing: 1px;
+  margin-bottom: 5%;
 }
 
 /* HEADER */
@@ -23,7 +23,7 @@
   display: grid;
   padding: 1em;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 3%;
   color: whitesmoke;
 }
 #web {
@@ -43,16 +43,14 @@
 
 .left {
   float: left;
-  border-right: 3px solid;
   border-top: 3px solid;
   border-bottom: 3px solid;
+  border-right: 3px solid;
   width: 300px;
   display: grid;
   margin-left: 10%;
-  margin-top: 5%;
-  height: 60%;
+  margin-top: 3%;
   color: whitesmoke;
-
 }
 .about {
   font-size: 29px;
@@ -94,8 +92,7 @@ img {
   border-bottom: 3px solid;
   width: 300px;
   display: grid;
-  margin-top: 5%;
-  height:60%;
+  margin-top: 3%;
   text-align: justify;
   padding-left: 3em;
   color: whitesmoke;
@@ -106,35 +103,32 @@ img {
   margin-top: 5%;
 }
 
-.exp{
-   font-size: 17px;
+.exp {
+  font-size: 17px;
+  padding-bottom: 15%;
 }
 
 .education {
- 
   padding-bottom: 5%;
   font-size: 29px;
 }
 .educa {
   font-size: 17px;
+  padding-bottom: 11%;
 }
 .inter {
   font-size: 29px;
   padding-bottom: 5%;
 }
 #intereses {
- 
+  padding-bottom: 15%;
   font-size: 17px;
 }
-.idiomas{
+.idiomas {
   font-size: 29px;
   padding-bottom: 5%;
-
 }
-#language{
+#language {
   font-size: 17px;
-
+  margin-bottom: 6px;
 }
-
-
-
