@@ -1,92 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi hoja de vida</title>
-    <link rel="stylesheet" href="styles.css" type="text/css" />
-  </head>
-  <body>
-    <main class="contenedor">
-      <!------------------------------------------ HEADER----------------------------->
-      <div class="header">
-        <img
-          class="im"
-          src="adriana.jpg"
-          alt="MI foto"
-          width="160"
-          height="205"
-        />
-        <article id="web">
-          <h1 class="name">ADRIANA VILLARREAL</h1>
-          <br />
-          <h2 class="pro">WEB PROGRAMMER</h2>
-        </article>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="styles.css" rel="stylesheet">
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+  <main class="contenedor">
+    <!------------------------------------------ HEADER----------------------------->
+    <div class="header">
+      <img class="im" src="adriana.jpg" alt="MI foto" width="160" height="205" />
+      <article id="web">
+        <h1 class="name">ADRIANA VILLARREAL</h1>
+        <br />
+        <h2 class="pro">Programador Front-end</h2>
+      </article>
+    </div>
+
+   
+    <!------------------------------------------LEFT--------------------------------->
+    <div class="container2">
+    <section class="left">
+  
+      <article class="aboutme">
+        <h2 class="about">Perfil profesional</h2>
+        <p>
+          Como programadora front-end tengo sólidos conocimientos en HTML, CSS,
+          JavaScript y Git. Me encanta trabajar en equipo y siempre doy lo mejor de mí para
+          lograr los objetivos del proyecto. Soy una persona apasionada por la tecnología y
+          siempre estoy buscando maneras de mejorar mis habilidades y conocimientos.
+          estoy dispuesta a aprender y trabajar duro para alcanzar mis objetivos
+        </p>
+      </article>
+
+      <article class="skills">
+        <h3 class="ski">Habilidades técnicas</h3>
+        <label for="file">➢ Desarrollo web: <b>HTML, CSS</b> </label><br />
+
+        <label for="file">➢ Control de versiones: <b>Git</b>
+        </label><br />
+
+        <label for="file">➢ Lenguajes de programación: <b>JavaScript</b>
+        </label><br />
+
+      </article>
+      <div class="contacto">
+        <h3 class="contact">Contacto</h3>
+        <p><i class="bi bi-whatsapp"></i>
+          +58 4245760262 </p>
+        <p>
+          <i class="bi bi-envelope"></i> Adrianavvb29@gmail.com
+        </p>
+
+        <p><i class="bi bi-linkedin"></i><a
+            href="https://www.linkedin.com/in/adriana-villarreal-front-end/">Linkedin</a></p>
+        </i>
+
+        <p><a href="#"><i class="bi bi-github"></i>GitHub</a></p>
       </div>
+     
+    </section>
 
-      <!------------------------------------------LEFT--------------------------------->
-      <section class="left">
-        <article class="aboutme">
-          <h2 class="about">ABOUT ME</h2>
-          <p>
-            Aunque no cuento con experiencia laboral especifica en el campo,
-            poseo una gran pasión por aprender y adquirir nuevas habilidades en
-            un entorno laboral desafiante.Me considero una persona motivada,
-            dedicada y con una actitud positiva hacia el aprendizaje continuo.
-          </p>
-        </article>
 
-        <article class="skills">
-          <h3 class="ski">SKILLS</h3>
-          <label for="file">HTML</label><br />
-          <progress id="file" value="80" max="100">90%</progress><br />
-          <label for="file">CSS</label><br />
-          <progress id="file" value="70" max="100">70%</progress><br />
-          <label for="file">JAVA SCRIPT</label><br />
-          <progress id="file" value="0" max="100">20%</progress>
-        </article>
-        <div class="contacto">
-          <h3 class="contact">CONTACT</h3>
-          <p><img src="phone.png" alt="telefono" /> +58 4245760262</p>
-          <p><img src="email.png" alt="email" /> Adrianavvb29@gmail.com</p>
-          <p><img src="ubicacion.png" alt="ubicacion" />Venezuela-Zulia</p>
-        </div>
-      </section>
+    <!------------------------------------------------ RIGHT----------------------------------->
+    <section class="right">
+      <div class="exp">
+        <h3 class="experiences">Experiencia laboral
+        </h3>
 
-      <!------------------------------------------------ RIGHT----------------------------------->
-      <section class="right">
-        <div class="exp">
-          <h3 class="experiences">EXPERIENCE</h3>
-          <ul>
-            <li>
-              <strong>Desarrollo web</strong>
-            </li><br>
-            <li>
-              <strong>Comercial del zulia</strong> <br />
-              Cajera
-            </li>
-          </ul>
-        </div>
-        <div class="educa">
-          <h2 class="education">EDUCATION</h2>
-          <p><b>Ada School</b> <br />Desarrollo Web</p><br>
-          <p><b>Bachiller en Ciencias</b></p>
-        </div>
-        <div id="intereses">
-          <h3 class="inter">INTERESES</h3>
-          <p><strong>Ingles fluido</strong></p>
-          <p><strong>Desarrollo web</strong></p>
-          <p><strong>Diseño de interiores</strong></p>
-        </div>
-        <article id="language">
-          <h3 class="idiomas">IDIOMAS</h3>
-          <label for="file">Español <br /></label>
-          <progress id="file" value="100" max="100">100%</progress> <br />
 
-          <label for="file">Ingles<br /></label>
-          <progress id="file" value="40" max="100">40%</progress>
-        </article>
-      </section>
-    </main>
-  </body>
+        <h4><strong>Auxiliar de desarrollo front-end ADA school 2023</strong></h4>
+        <p>Responsabilidades
+          -Desarrollar una hoja de vida mediante el uso de herramientas como CSS y HTML5. con el
+          fin de generar una interacción del lector y el documento.
+          -Desarrollar una lista de tareas, mediante el uso de herramientas como Javascript. Para
+          organizar las actividades diarias de los usuarios.
+          -Desarrollar una lista de tareas con React la cual permite eliminar actividades y optimizar el
+          tiempo de los usuarios.</p>
+
+      </div>
+      <div class="educa">
+        <h2 class="education">Educación
+        </h2>
+        <p><b>2023-2024 Ada School</b> <br />Desarrollo Web</p>
+        <p><b>Bachiller en Ciencias</b></p>
+      </div>
+      
+      <article class="adicional">
+        <h3>Información adicional
+        </h3>
+<span>Idiomas: Español (Nativo).</span>
+        
+          
+        
+        
+      </article>
+      <div class="intereses">
+        <h3 class="inter">Intereses</h3>
+        <p><strong>Ingles fluido</strong></p>
+        <p><strong>Desarrollo web</strong></p>
+        
+      </div>
+    </section>
+  </main>
+
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
